@@ -2,6 +2,7 @@
 # include"testFunc.h"
 int main()
 {
+    printf("hello\n");
     int num1 = 100;
     testFunc test(num1);
     test.printTest();
